@@ -1,0 +1,135 @@
+.add_product{
+    margin-top: 25px;
+    height: 50%
+}
+
+body{
+  background-color: darkgray;
+}
+
+.add-product-form {
+    max-width: 80%;  ;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: black;
+    
+}
+
+.add-product-form h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-style: inherit;
+    
+}
+
+.box {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #0b0101;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #00fff255;
+    color: rgb(1, 8, 6);
+    cursor: pointer;
+    font-style: italic;
+}
+
+.btn:hover {
+    background-color: #00b383;
+}
+
+.product-cards,
+.gallery-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.product-card,
+.gallery-card {
+    border: 3px solid black;
+    border-radius: 8px;
+    padding: 10px;
+    width: 250px;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+.product-card h4 {
+    margin-top: 10px;
+    font-size: 18px;
+    font-style: oblique;
+}
+
+.product-card p {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #555;
+}
+
+/* CSS for the edit and delete buttons */
+.card_form{
+    width: 100%;
+}
+
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .edit-btn,
+  .delete-btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .card_form{
+    width: 100%;
+  }
+
+  /* .edit-btn {
+    background-color: #3498db;
+    width: 50%;
+    color: #fff;
+  } */
+  
+  
+  .delete-btn{
+    background-color: #e74c3c;
+    position: relative;
+    width: 100%;
+    color: #fff;
+  }
+  
+  /* Hover effect for buttons */
+  .edit-btn:hover,
+  .delete-btn:hover {
+    background-color: darken( #3498db, 10%); /* Adjust as needed */
+  }
+  
+  /* Optional: Add margin between buttons */
+  .edit-btn + .delete-btn {
+    margin-left: 8px;
+  }

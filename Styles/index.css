@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+* {box-sizing: border-box}
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: black;
+}
+
+img{
+  background-size: cover;
+}
+
+.txt p {
+  z-index: 1;
+  color: bisque;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+
+}
+
+
+.container {
+  position: relative;
+  width: 25%;
+  display: inline-block;
+  margin: 10px 1%;
+  vertical-align: top;
+  box-sizing: border-box;
+  margin-left: 5%;
+  
+}
+h1 {
+  text-align: center;
+  background-color: brown;
+  height: 50px;
+  width: 100%;
+  text-decoration: dotted;
+  color: black;
+}
+
+
+.image {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1;
+  width: 91.7%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.container:hover .overlay {
+  opacity: 1;
+}
+#Menu {
+  margin-top: 30px;
+
+}
+
+.per {
+  text-align: center;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 30px;
+  
+
+}
+.per p{
+  color: #ecc80f;
+}
+
+p {
+  color: black;
+  font-size: larger;
+  font-weight: 700;
+}
+
+.team_name {
+  color: black;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  background-color: burlywood;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: scale(0.9);
+  transition: transform 0.3s ease-in-out;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after,
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: green;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 30PX;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+footer {
+  background-color: rgb(165, 146, 146);
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+  
+}
+
+image{
+  background-size: auto; 
+  background-repeat: no-repeat;
+  
+}
+.txt{
+  position: absolute;
+  margin-top: 3%;
+  color: #f1f1f1;
+}
+
